@@ -181,6 +181,7 @@ header{
 .board{
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
     border-radius: 10px;
+    height: 100%;
 }
 .btn-cust2 {
     background-color: #3434A3;
