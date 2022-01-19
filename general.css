@@ -1,8 +1,98 @@
-footer {
+/* default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    transition: all .3s linear;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    padding: 0%;
+    width: 100%;
+}
+
+/* Navigation bar */
+nav {
+    background-color: rgba(0, 0, 0, .5);
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.navcontent {
+    flex-basis: 50%;
+    align-self: flex-end;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    font-weight: 700;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1%;
+}
+.logo {
+    flex-basis: 25%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.in{
+    display: flex;
+    font-size: 2rem;
+}
+/* body */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* footer */
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 0% 1%;
     border-top: 2px solid #3434A3;
 }
 
