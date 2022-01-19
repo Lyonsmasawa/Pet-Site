@@ -68,6 +68,13 @@ nav a {
     font-size: 1.4rem;
     padding: 1%;
 }
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    padding: 10%;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #3434a34b 0%, #0000002f 100%);
+  }
 .logo {
     flex-basis: 25%;
     margin: 0%;
