@@ -1,0 +1,76 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    border-top: 2px solid #3434A3;
+}
+
+.ftext {
+    font-family: Robotoregular;
+    font-size: 22px;
+    padding: 0%;
+}
+
+.pett {
+    font-family: Robotobold;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0%;
+}
+
+.sitet {
+    background: linear-gradient(135deg, #3434a3 55%, #000000 45%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socialicons {
+    padding: 0%;
+    align-items: center;
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-evenly;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-google {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa:hover {
+    overflow: hidden;
+    color: black;
+    cursor: pointer;
+    background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+}
