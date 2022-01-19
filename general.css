@@ -45,7 +45,7 @@ nav {
 
 .navcontent {
     flex-basis: 50%;
-    align-self: flex-end;
+    padding-top: 1%;
     display: flex;
     list-style: none;
     color: white;
@@ -77,8 +77,6 @@ nav a:hover {
   }
 .logo {
     flex-basis: 25%;
-    margin: 0%;
-    padding: 0%;
     display: flex;
 }
 .in{
@@ -91,6 +89,70 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.about-us p{
+   text-align: justify;
+}
+
+.about-us h1{
+    margin-top: 5rem;
+}
+.img-one{
+    filter: drop-shadow(-2px 15px 15px rgb(255, 255, 255));
+    box-shadow: 0px 0px 10px black;
+    background-size: cover;
+}
+.img-two{
+    filter: drop-shadow(-2px 15px 15px rgba(0, 0, 0, 0.45));
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+}
+.newsletter {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    align-self: baseline;
+    justify-self: baseline;
+    background: rgba(112, 112, 112, 0.075);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    margin-bottom: 2rem;
+}
+.newsletter h5{
+    color: #3434A3;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.newbtn {
+    background-color: black;
+    color: white;
+    outline: 2px solid;
+    letter-spacing: .2rem;
+}
+.newsletter form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
 }
 /* footer */
 footer {
