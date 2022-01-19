@@ -90,6 +90,8 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/* about us  */
 .about-us{
     display: flex;
     flex-direction: column;
@@ -153,6 +155,30 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;   
+}
+
+/* buy pets  */
+.buy-pets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buy-pets h1{
+    margin-top: 5rem;
+}
+.padd{
+    padding: 3%;
+}
+.board{
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.btn-cust2 {
+    background-color: #3434A3;
+    padding: .5% 4%;
+    border-radius: 2px;
+    color: white;
+    font-weight: 900;
 }
 /* footer */
 footer {
