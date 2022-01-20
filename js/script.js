@@ -1,4 +1,5 @@
 
+
 $(document).ready(function() {
     $("#adoptCat1").click(function() {
         $(".adoption-details").toggle();
@@ -30,5 +31,12 @@ $(document).ready(function() {
 
     $("#adoptHamsters").click(function() {
         $(".adoption-details").toggle();
+    });
+
+    $("form#adopt").submit(function(event) {
+        event.preventDefault();
+        var name = $("#name").val();
+        alert("Hello " + name + ". " + "We have received your adoption request. Please visit our offices to finalize the adoption process.");
+        $("#adopt")[0].reset();
     });
 });
