@@ -56,7 +56,8 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,64 +73,104 @@ nav a {
     font-size: 1.4rem;
     padding: 1%;
 }
+
 nav a:hover {
     text-decoration: none;
     color: white;
     padding: 10%;
     border-radius: 8px;
     background: linear-gradient(135deg, #3434a34b 0%, #0000002f 100%);
-  }
+}
+
 .logo {
     flex-basis: 25%;
     display: flex;
     margin-left: 2%;
 }
-.in{
+
+.in {
     display: flex;
     font-size: 2rem;
 }
+
 /* body */
 
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-/* adopt */
-.adopt-pets .board{
+
+.container {
+    width: 100%;
+}
+
+#home {
+    justify-content: center;
+    color: #000000;
+    font-weight: 900;
+    height: 30vh;
+    margin-top: 5rem;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(52, 52, 163, 0.711), rgba(255, 255, 255, 0.815)), url("img/two-race-dogs-750570_640.jpg");
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    align-items: center;
 }
-.adopt-pets h1{
-    margin-top: 5rem;
+
+.intro h5 {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.intro h4 {
+    font-size: 1.7rem;
+}
+
+/* adopt */
+.adopt-pets .board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adopt-pets h1 {
+    margin-top: 1rem;
+}
+.adopt-pets{
+    background-color: #3434a30a;
 }
 
 /* about us  */
-.about-us{
+.about-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 3rem;
 }
-.about-us p{
-   text-align: justify;
+
+.about-us p {
+    text-align: justify;
 }
 
-.about-us h1{
-    margin-top: 5rem;
+.about-us h1 {
+    margin-top: 3rem;
 }
-.img-one{
+
+.img-one {
     filter: drop-shadow(-2px 15px 15px rgb(255, 255, 255));
     box-shadow: 0px 0px 10px black;
     background-size: cover;
 }
-.img-two{
+
+.img-two {
     filter: drop-shadow(-2px 15px 15px rgba(0, 0, 0, 0.45));
     background-size: cover;
     box-shadow: 0px 0px 10px black;
 }
+
+
 .newsletter {
     padding: 1.2rem;
     display: flex;
@@ -147,7 +188,8 @@ header{
     border-radius: 0%;
     margin-bottom: 2rem;
 }
-.newsletter h5{
+
+.newsletter h5 {
     color: #3434A3;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -159,37 +201,44 @@ header{
     outline: 2px solid;
     letter-spacing: .2rem;
 }
-.newsletter form{
+
+.newsletter form {
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sub{
+
+.sub {
     width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 
 /* buy pets  */
-.buy-pets{
+.buy-pets {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #3434a30a;
 }
-.buy-pets h1{
-    margin-top: 5rem;
+
+.buy-pets h1 {
+    margin-top: 1rem;
 }
-.padd{
+
+.padd {
     padding: 3%;
 }
-.board{
+
+.board {
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
     border-radius: 10px;
     height: 100%;
 }
+
 .btn-cust2 {
     background-color: #3434A3;
     padding: .5% 4%;
@@ -197,6 +246,7 @@ header{
     color: white;
     font-weight: 900;
 }
+
 /* footer */
 footer {
     width: 100%;
@@ -207,7 +257,7 @@ footer {
     padding: 0% 1%;
     border-top: 2px solid #3434A3;
 }
- 
+
 .ftext {
     font-family: Robotoregular;
     font-size: 22px;
