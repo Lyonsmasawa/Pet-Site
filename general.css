@@ -138,7 +138,8 @@ header {
 .adopt-pets h1 {
     margin-top: 1rem;
 }
-.adopt-pets{
+
+.adopt-pets {
     background-color: #3434a30a;
 }
 
@@ -164,9 +165,15 @@ header {
     background-size: cover;
 }
 
+.cust {
+    border: 1px solid #e3e3e3;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, .25);
+}
+
 .img-two {
-    filter: drop-shadow(-2px 15px 15px rgba(0, 0, 0, 0.45));
     background-size: cover;
+    filter: drop-shadow(-2px 15px 15px rgb(255, 255, 255));
     box-shadow: 0px 0px 10px black;
 }
 
@@ -325,4 +332,181 @@ footer {
     color: black;
     cursor: pointer;
     background: linear-gradient(135deg, #3434A3 0%, #4C83FF 100%);
+}
+
+.main {
+    background: white;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    color: #000000;
+    font-weight: 900;
+    height: 90vh;
+    width: 45vh;
+}
+
+#sellus {
+    background: #e5e5e5;
+}
+
+.sellone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.sell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.dlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+}
+
+.pdetails {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+}
+
+.fully {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}.fully label{
+    align-self: flex-start;
+}
+
+.ddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    width: 100%;
+}
+.donbut {
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.05em;
+    padding: 1% 4%;
+}
+.sell a{
+    color: black;
+    padding: 1%;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 4px;
+}
+.ilogo {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: right;
+}
+
+.logtxt {
+    padding: 0%;
+    font-size: 20px;
+    font-family: Robotobold;
+    margin: 0%;
+}
+
+#otxt {
+    margin: 0%;
+    padding: 0%;
+}
+
+#famtxt {
+    color: #3434A4;
+    padding: 0%;
+}
+
+#name12,
+#comment12 {
+    border-radius: 4px;
+    border: none;
+    height: 4vh;
+    padding: 0% 4%;
+    margin-top: 3%;
+}
+
+.end {
+    width: 100%;
+    background-color: #0e0d0d;
+    color: #fff;
+}
+
+.top_header {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.top_header section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.top_header span {
+    padding: 0 1rem;
+}
+
+.top_header .fa {
+    color: #cecfe2;
+    font-size: 35px;
+}
+
+.end .border-shape {
+    width: 40%;
+}
+
+.end .border-shape::before {
+    width: 100%;
+    left: 120px;
+}
+
+.end .border-shape::after {
+    width: 100%;
+    right: 120px;
+}
+
+.end .bottom_content section {
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.bottom_content a {
+    margin: 0 20px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+
+.bottom_content a:hover {
+    color: rgba(255, 255, 255, 1);
 }
