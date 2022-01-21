@@ -59,16 +59,34 @@ section {
     width: 100%
 }
 
+.cardx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
 .box {
-    width: 520px;
-    height: 720px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 8% auto 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    position: relative;
+    align-items: center;
+    padding: 2%;
+    justify-content: space-between;
     box-sizing: border-box;
     flex-direction: column;
+}
+
+.btn-cust2 {
+    background-color: #3434a3;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 
@@ -94,7 +112,7 @@ section {
 }
 
 .header .active {
-    color: #df80ff;
+    color: #3434a3;
     font-weight: bold;
     position: relative;
 }
@@ -158,7 +176,7 @@ input[type=email] {
 input[type=text]:hover,
 input[type=password]:hover,
 input[type=email]:hover {
-    border: 4px solid #df80ff;
+    border: 4px solid #3434a3;
 
 }
 
@@ -184,7 +202,7 @@ input[type=submit]:hover {
 }
 
 input[type=checkbox] {
-    background-color: #df80ff;
+    background-color: #3434a3;
 }
 
 #check {
