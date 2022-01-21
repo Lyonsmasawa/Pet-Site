@@ -52,6 +52,6 @@ $("form#adopt").submit(function (event) {
 $("form#buy").submit(function (event) {
     event.preventDefault();
     var name = $("#name").val();
-    alert("Hello " + name + ". " + "Please check youer email for the terms and conditions that have to be met to be able to own this pet");
+    alert("Hello " + name + ". " + "Please check your email for the terms and conditions that have to be met to be able to own this pet");
     $("#buy")[0].reset();
 });
