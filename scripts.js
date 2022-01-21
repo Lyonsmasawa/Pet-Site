@@ -45,7 +45,7 @@ $("#bfour").click(function () {
 
 $("form#adopt").submit(function (event) {
     event.preventDefault();
-    var name = $("#name").val();
+    var name = $("#fname").val();
     alert("Hello " + name + ". " + "We have received your adoption request. Please check youer email for adoption papers, fill them and drop them at our offices to start the adoption process.");
     $("#adopt")[0].reset();
 });
